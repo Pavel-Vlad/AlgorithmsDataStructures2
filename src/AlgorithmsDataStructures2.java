@@ -3,8 +3,10 @@ import java.util.*;
 public class AlgorithmsDataStructures2 {
     public static int[] GenerateBBSTArray(int[] a) {
         int[] resAr = new int[a.length];
+
         Arrays.sort(a);
         recurs(a, resAr, 0);
+
         return resAr;
     }
 
