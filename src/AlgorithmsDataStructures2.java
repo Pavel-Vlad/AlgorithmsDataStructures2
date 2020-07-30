@@ -8,7 +8,7 @@ public class AlgorithmsDataStructures2 {
         return resAr;
     }
 
-    public static int[] recurs(int[] arr, int[] resArr, int indexToAdd) {
+    private static int[] recurs(int[] arr, int[] resArr, int indexToAdd) {
         if (arr.length == 1) {  // condition for end recursion
             resArr[indexToAdd] = arr[0];
             return resArr;
